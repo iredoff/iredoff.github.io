@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }  
-   
-a { 
-    text-decoration: none;
-} 
+
+a.text:active, a.text:hover, a.text {
+  text-decoration: none;
+  color: #000 !important;
+  outline: none;
+}
 
 body, html {
     width: 100%;
